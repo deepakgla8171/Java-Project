@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class QueueProject {
     int front = 0;
     int rear = -1;
-    int size = 6;
+    int size = 5;
     int queue[] = new int[size];
     void enqueue(int value) {
         if (rear == size - 1) {
